@@ -40,7 +40,7 @@
   "homepage": "",
   "repository": {
     "type": "git",
-    "url": "",
-    "directory": ""
+    "url": "https://github.com/docbnmu/gatsby-theme-minimal-core",
+    "directory": "/"
   }
 }
