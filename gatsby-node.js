@@ -164,14 +164,14 @@ exports.sourceNodes = ({ actions, createContentDigest }, themeOptions) => {
 
   createNode({
     ...minimalBlogConfig,
-    id: `@docbnmu/gatsby-theme-minimal-core`,
+    id: `@lekoarts/gatsby-theme-minimal-blog-core-config`,
     parent: null,
     children: [],
     internal: {
       type: `MinimalBlogConfig`,
       contentDigest: createContentDigest(minimalBlogConfig),
       content: JSON.stringify(minimalBlogConfig),
-      description: `Options for @docbnmu/gatsby-theme-minimal-core`,
+      description: `Options for @lekoarts/gatsby-theme-minimal-blog-core`,
     },
   })
 }
